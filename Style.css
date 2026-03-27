@@ -1,0 +1,27 @@
+*{
+    /* background-color: gray; */
+}
+
+h1{
+    color: blue;
+}
+
+h2{
+    color: aqua;
+}
+
+.Selector > h1,
+.Selector > h2,
+.Selector > h3,
+.Selector > h4{
+    color: darksalmon;
+}
+
+#One > h1,
+#One > h2,
+#One > h3,
+#One > h4,
+#One > p{
+    color: violet;
+    background-color: brown;
+}

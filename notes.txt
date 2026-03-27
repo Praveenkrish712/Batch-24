@@ -1,6 +1,6 @@
 HTML - Hyper Text markup language (HTML5)  <head> content <head/>
 
-Self Closing tag - hr, meta, br, img, input
+Self Closing tag - hr, meta, br, img, input, link
 
 ==> To create a Web page
 ==> Not a Programming language
@@ -31,6 +31,33 @@ Self Closing tag - hr, meta, br, img, input
 
 12) Semantic tags - header, footer, section and nav
 
-13) Division tag - div 
+13) Division tag - div
 
 14) Span
+
+--------------------------------------------------------------------------------------------------
+
+CSS - Cascading style sheet
+----> It is used to style and design a web page
+----> CSS works together with HTML
+----> Change the Text, color and background
+----> To set the Image and design a layout
+----> Adding a Animation and transition too
+
+1) Types Of CSS
+i) Inline CSS
+ii) Internal CSS
+iii) External CSS
+Inline > Internal > External
+
+2) CSS syntax
+Selector{
+    property:value;
+}
+
+3)Types of Selector
+i) Elements Selector - h1,h2,p
+ii) Class Selector - (.) - Multiple - No of times we can use the same class name
+iii) Id Selector - (#) - Unique - Only one time we can use the same id name
+iv) Universal Selector - (*) - in that style can apply to the entire site
+v) Group Selector - class or id name contain different tags, in that different tags we want to change the same style means we can go with Group Selector
