@@ -1,5 +1,9 @@
 *{
     /* background-color: gray; */
+    padding: 0;
+    margin: 0;
+    border: 0;
+    box-sizing: border-box;
 }
 
 h1{
@@ -22,6 +26,44 @@ h2{
 #One > h3,
 #One > h4,
 #One > p{
-    color: violet;
-    background-color: brown;
+    color: #2b20a9;
+    background-color: darkblue;
+}
+
+
+p{
+    background-image: url(./Assets/images.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.Style{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 50px;
+    text-align: center;
+    text-transform: capitalize;
+    text-decoration: line-through;
+    font-weight: 800;
+    line-height: 10px;
+    letter-spacing: 10px;
+}
+
+.Container{
+    width: 200px;
+    height: 200px;
+    background-color: red;
+    /* padding-left: 50px;
+    padding-top: 30px; */
+    padding: 20px 40px 60px 80px;
+    /* border-top: 20px solid green;
+    border-left: 10PX solid hotpink; */
+    border: 20px solid darkturquoise;
+    /* margin-left: 100px;
+    margin-top: 200px; */
+    margin: 50px 70px 90px 120px;
+}
+
+h3, h2, h5{
+    padding: 10px;
 }
