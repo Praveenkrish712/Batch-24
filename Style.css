@@ -85,3 +85,109 @@ h3, h2, h5{
     /* left: 1000px; */
     top: 200px;
 }
+
+.box1{
+    width: 200px;
+    height: 100px;
+    background-color: red;
+    /* flex: 3; */
+    order: 3;
+}
+
+.box2{
+    width: 200px;
+    height: 100px;
+    background-color: blue;
+    /* flex: 1; */
+    order: 1;
+}
+
+.box3{
+    width: 200px;
+    height: 100px;
+    background-color: green;
+    /* flex: 1; */
+    order: 2;
+}
+
+.box4{
+    width: 200px;
+    height: 100px;
+    background-color: yellow;
+}
+
+.box5{
+    width: 200px;
+    height: 100px;
+    background-color: orange;
+}
+
+.container{
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+    height: 500px;
+    border: 2px solid black;
+    align-items: start;
+    /* gap: 10px; */
+    /* flex-wrap: wrap; */
+    align-content: space-between;
+}
+
+.box6{
+    width: 200px;
+    height: 100px;
+    background-color: red;
+}
+
+.box7{
+    width: 200px;
+    height: 100px;
+    background-color: blue;
+}
+
+.box8{
+    width: 200px;
+    height: 100px;
+    background-color: green;
+}
+
+.box9{
+    width: 200px;
+    height: 100px;
+    background-color: yellow;
+}
+
+.box10{
+    width: 200px;
+    height: 100px;
+    background-color: orange;
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 20px;
+    background-color: rgb(6, 6, 58);
+}
+
+nav > ul {
+    display: flex;
+    gap: 20px;
+}
+
+nav > ul > li > a{
+    text-decoration: none;
+    font-size: 18px;
+    color: white;
+}
+
+nav > ul > li{
+     list-style: none;
+}
+
+.logo{
+    font-size: 25px;
+    color: white;
+}
