@@ -111,3 +111,31 @@ v - Sticky - using top:0 and once reached the top:0 it will act as a same Fixed
 7) Align contnet (Y) (Set the height) (Flex wrap is enable) - start, center, end, space-Around, space-evenly, space-between
 8) Flex on item - flex:1,2,3
 9) Order - Change the Visual order of the property
+
+=====> Grid
+1) using Display:grid - no change
+2) grid-template-columns: 30% 30% 30%;
+                        : 200px 300px 400px 300px;
+                        : 1fr 1fr 1fr;
+                        : 200px 30% 1fr;
+                        : 300px 200px auto;
+                        : repeat(10,100px);
+                        : minmax(200px,1fr) 1fr 1fr;
+                        : repeat(3,minmax(200px,1fr));
+3)  grid-template-rows:  30% 30% 30%;
+                        : 200px 300px 400px 300px;
+                        : 1fr 1fr 1fr;
+                        : 200px 30% 1fr;
+                        : 300px 200px auto;
+                        : repeat(10,100px);
+                        : minmax(200px,1fr) 1fr 1fr;
+                        : repeat(3,minmax(200px,1fr));  
+4) grid-column-start: 1; (starting value)
+    grid-column-end: 4; (ending value)  
+     grid-column: span 3;
+5) grid-row: span 3;   
+6) grid-template-areas: 
+    "h h h h"
+    "sb1 m m sb2"
+    "f f f f";    
+7) grid-area: h,f,sb1,sb2,m                                    
