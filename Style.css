@@ -227,7 +227,7 @@ nav > ul > li{
 }
 
 .item2{
-    grid-row: span 3;
+    grid-row: span 2;
 }
 
 .layout > div {
@@ -268,4 +268,10 @@ nav > ul > li{
 
 .main{
     grid-area: m;
+}
+
+.svg{
+    width: 20px;
+    height: 20px;
+    fill: blue;
 }
