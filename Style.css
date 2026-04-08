@@ -1,8 +1,8 @@
 *{
     /* background-color: gray; */
-    padding: 0;
-    margin: 0;
-    border: 0;
+    /* padding: 0; */
+    /* margin: 0; */
+    /* border: 0; */
     box-sizing: border-box;
 }
 
@@ -201,7 +201,6 @@ nav > ul > li{
 .grid-content{
     display: grid;
     grid-template-columns: repeat(3,minmax(200px,1fr));
-    grid-template-rows:;
 }
 
 .items{
@@ -274,4 +273,118 @@ nav > ul > li{
     width: 20px;
     height: 20px;
     fill: blue;
+}
+
+.square{
+    width: 300px;
+    height: 300px;
+    background-color: violet;
+    transition-duration: 3s;
+    transition-property: all;
+    transition-timing-function: linear;
+    /* transition-delay: 2s; */
+}
+
+.square:hover{
+    width: 600px;
+    background-color: darkblue;
+    transform: translateY(100px);
+}
+
+.square2{
+    width: 100px;
+    height: 100px;
+    background-color: salmon;
+    border-radius: 50%;
+    animation-name: Circle;
+    animation-duration: 10s;
+    animation-fill-mode: forwards;
+    animation-iteration-count: infinite;
+    position: relative;
+}
+
+@keyframes Circle {
+    25%{
+        width: 200px;
+        height: 200px;
+        background-color: darkgrey;
+        left: 10px;
+        top: 10px;
+    }
+
+    50%{
+        width: 300px;
+        height: 300px;
+        background-color: yellow;
+        left: 20px;
+        top: 20px;
+    }
+
+    75%{
+        width: 350px;
+        height: 350px;
+        background-color: green;
+        left: 30px;
+        top: 30px;
+    }
+
+    100%{
+        width: 400px;
+        height: 400px;
+        background-color: blue;
+        left: 40px;
+        top: 40px;
+    }
+}
+
+button{
+    background-color: black;
+    color: white;
+    padding: 10px 25px;
+}
+
+button:hover{
+    background-color: green;
+    cursor: pointer;
+}
+
+input:focus{
+    border: 2px solid red;
+    outline: none;
+}
+
+/* li:nth-child(3){
+    color: red;
+}
+
+li:first-child{
+    color: blue;
+}
+
+li:last-child{
+    color: goldenrod;
+} */
+
+li:nth-child(even){
+    color: red;
+    background-color: black;
+}
+
+li:nth-child(odd){
+    color: green;
+    background-color: gray;
+}
+
+/* .paragraph::after{
+    content: "Praveen ";
+} */
+
+#check:checked + label{
+    color: red;
+    font-weight: bold;
+}
+
+.paragraph::first-line{
+    font-size: 50px;
+    color: red;
 }

@@ -139,3 +139,47 @@ v - Sticky - using top:0 and once reached the top:0 it will act as a same Fixed
     "sb1 m m sb2"
     "f f f f";    
 7) grid-area: h,f,sb1,sb2,m                                    
+
+
+9) Transition and Animation
+
+==> Transition - Whenever we hover(Affected) some action will do its called Transition
+==> Animation - Whenever the site will reload/refresh in that time some action will do its called Animation 
+
+~~~~> Transition
+               transition-duration: 3s;
+               transition-property: all;
+               transition-timing-function: ease-in;
+                                         : ease-out;
+                                         : ease-in-out;
+                                         : linear;
+               transition-delay: 2s;    
+
+~~~~> transform
+              transform: rotate(45deg);
+                       : scale(2);
+                       : translate(100px);
+
+
+~~~> Animation
+--> Set the Name
+--> Set the duration
+--> we can use the @keyframes to set the name and using two types to animatting , one is (From To) and (25%, 50%, 75%, 100%)
+
+                  animation-name: Circle;
+                  animation-duration: 5s;
+                  animation-fill-mode: forwards;
+                  animation-iteration-count: infinite;
+
+10) pseco code    
+--> hover
+--> focus
+--> first-child
+--> nth-child(3)
+--> nth-child(odd)  
+--> nth-child(even)     
+--> checked + label
+--> first-line
+--> first-letter
+--> ::after
+--> ::before
