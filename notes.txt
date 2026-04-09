@@ -183,3 +183,15 @@ v - Sticky - using top:0 and once reached the top:0 it will act as a same Fixed
 --> first-letter
 --> ::after
 --> ::before
+
+11) Media Queries OR Responsive design
+--> apply the style based on the device condition
+--> Device type (Mobile, tablet, lap/desktop)
+
+---> Mobile      - 320px to 600px
+---> tablet      - 601px to 800px
+---> lap/desktop - Above 801px
+
+@media Screen and (max-width:size){
+    block of code
+}

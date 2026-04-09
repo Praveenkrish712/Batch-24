@@ -1,8 +1,8 @@
 *{
     /* background-color: gray; */
-    /* padding: 0; */
-    /* margin: 0; */
-    /* border: 0; */
+    padding: 0;
+    margin: 0;
+    border: 0;
     box-sizing: border-box;
 }
 
@@ -64,9 +64,9 @@
     margin: 50px 70px 90px 120px;
 }
 
-h3, h2, h5{
+/* h3, h2, h5{
     padding: 10px;
-}
+} */
 
 .redBox{
     width: 300px;
@@ -163,7 +163,7 @@ h3, h2, h5{
     height: 100px;
     background-color: orange;
 }
-
+/* 
 header{
     display: flex;
     justify-content: space-between;
@@ -190,7 +190,7 @@ nav > ul > li{
 .logo{
     font-size: 25px;
     color: white;
-}
+} */
 
 .para{
     padding: 20px;
@@ -365,7 +365,7 @@ li:last-child{
     color: goldenrod;
 } */
 
-li:nth-child(even){
+/* li:nth-child(even){
     color: red;
     background-color: black;
 }
@@ -373,7 +373,7 @@ li:nth-child(even){
 li:nth-child(odd){
     color: green;
     background-color: gray;
-}
+} */
 
 /* .paragraph::after{
     content: "Praveen ";
@@ -387,4 +387,67 @@ li:nth-child(odd){
 .paragraph::first-line{
     font-size: 50px;
     color: red;
+}
+
+@media screen and (max-width:800px) {
+    h1{
+        text-align: center;
+        color: red;
+        background-color: black;
+    }
+}
+
+@media screen and (max-width:600px) {
+    h2{
+        text-align: center;
+        color: violet;
+        background-color: gray;
+        font-weight: 900;
+        font-family: fantasy;
+    }
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 30px;
+    background-color: lightgreen;
+}
+
+.Logo{
+    font-size: 25px;
+    font-weight: bold;
+}
+
+nav > ul{
+    display: flex;
+    gap: 25px;
+    list-style: none;
+}
+
+nav > ul > li > a{
+    text-decoration: none;
+    color: black;
+    font-size: 18px;
+}
+
+nav > ul > li > a:hover{
+    color: rgb(255, 255, 255);
+}
+
+svg{
+    width: 30px;
+    height: 30px;
+    display: none;
+}
+
+@media screen and (max-width:500px) {
+    svg{
+        display: block;
+    }
+
+    nav{
+        display: none;
+    }
 }
